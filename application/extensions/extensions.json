@@ -1,0 +1,5 @@
+[
+    {"priority":30,"name":"preside-ext-elasticsearch","active":true},
+    {"priority":20,"name":"preside-ext-analytics-import","active":true},
+    {"priority":10,"name":"preside-ext-blog","active":true}
+]
