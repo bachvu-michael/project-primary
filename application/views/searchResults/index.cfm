@@ -14,6 +14,7 @@
     youSearchedFor  = Len( Trim( args.label_you_searched_for ) ) ? args.label_you_searched_for : "You searched for"; // TODO: i18n
     resultCount     = NumberFormat( args.searchResult.getTotalResults() );
     loadMore        = Len( Trim( args.label_load_more ) ) ? args.label_load_more : "Show more..."; // TODO: i18n
+
 </cfscript>
 <cfoutput>
     <div class="contents" >
@@ -40,13 +41,11 @@
                                 </select>
                             </div>
                         </div>
-
                         <div class="articles mod-listing">
                             <cfloop array="#results#" index="i" item="result">
                                 #renderView( view="/searchResults/_result", args=result )#
                             </cfloop>
                         </div>
-
                         <!--- TODO: implement load more for search results --->
                         <p class="load-more u-aligned-center">
                             <!--- TODO: i18n --->

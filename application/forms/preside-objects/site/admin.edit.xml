@@ -13,4 +13,13 @@
 			<field binding="site.left_content" control="richEditor"/>
 		</fieldset>
 	</tab>
+	<tab id="footer" title="preside-objects.site:footer.tab.title">
+        <fieldset id="footer">
+            <field binding="site.footer_title" />
+            <field binding="site.footer_content"  control="richEditor" />
+
+            <field binding="site.footer_facebook" />
+            <field binding="site.footer_youtube"  />
+        </fieldset>
+    </tab>
 </form>

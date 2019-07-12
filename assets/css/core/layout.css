@@ -1,0 +1,48 @@
+.admin-editable .header-nav {
+  top: 45px;
+}
+.header-nav {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+.header-nav .navbar-main .nav.nav-collapse-l1 li:hover > a {
+  color: #E23D2F;
+  transition: all 0.35s ease-out;
+  -webkit-transition: all 0.35s ease-out;
+}
+.header-nav .navbar-main .nav.nav-collapse-l1 li:hover > a::before {
+  width: 0;
+}
+.body-wapper {
+  margin-top: 70px;
+}
+.flexslider .slides .bg-cover::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(6%, rgba(0, 0, 0, 0.9)), color-stop(12%, rgba(0, 0, 0, 0.75)), color-stop(30%, transparent), to(transparent));
+  background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 6%, rgba(0, 0, 0, 0.75) 12%, transparent 30%, transparent 100%);
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.9) 6%, rgba(0, 0, 0, 0.75) 12%, transparent 30%, transparent 100%);
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 6%, rgba(0, 0, 0, 0.75) 12%, transparent 30%, transparent 100%);
+}
+.flexslider .slides .content-slide-custom {
+  position: relative;
+  color: #fff;
+}
+.flexslider .slides .content-slide-custom .container-inner {
+  vertical-align: bottom;
+}
+.flexslider .slides .content-slide-custom h1 {
+  font-size: 50px;
+  font-weight: 400;
+}
+.flexslider .slides .content-slide-custom a {
+  color: #fff;
+  border-color: #fff ;
+}
+.flexslider .slides .content-slide-custom a i {
+  color: #fff;
+}

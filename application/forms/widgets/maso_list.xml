@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form i18nBaseUri="widgets.maso_list:">
+	<tab>
+		<fieldset>
+			<field name="background_color" default="ffffff" control="SimpleColourPicker" colours="E23D2F|ffffff|f7f7f7|cce5ff|e2e3e5|d4edda|f8d7da|fff3cd|d1ecf1|d6d8d9|8db9df|EAF2FF|ffd8d0|c7ecc7|ffa6ff|ffdcae|8cff8c|ffa0b4|ffe38f|d3d3d3|b2ffb2|9999cc|ff9999|ffcccc|7fbf7f"/>
+			<field binding="product.group_product" maxLength="500" multiple="true" sortable="true" quickadd="true" quickedit="true" />
+			<field name="product" control="objectPicker"  filterBy="group_product" disabledIfUnfiltered="true" object="product" multiple="true" sortable="true" quickadd="true" quickedit="true" />
+
+			<field name="title_widget"  control="richEditor"/>
+			<field name="has_title" control="yesNoSwitch" default="0"/>
+			<field name="layout"  	control="select" values="0,1" labels="default,small" required="true" default="0"/>
+		</fieldset>
+	</tab>
+</form>

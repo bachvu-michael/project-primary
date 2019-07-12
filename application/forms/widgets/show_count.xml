@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form i18nBaseUri="widgets.show_count:">
+	<tab>
+		<fieldset>
+			<field name="background_color" control="SimpleColourPicker" colours="E23D2F|ffffff|f7f7f7|cce5ff|e2e3e5|d4edda|f8d7da|fff3cd|d1ecf1|d6d8d9|8db9df|EAF2FF|ffd8d0|c7ecc7|ffa6ff|ffdcae|8cff8c|ffa0b4|ffe38f|d3d3d3|b2ffb2|9999cc|ff9999|ffcccc|7fbf7f"/>
+			<field name="number_1" control="spinner" minvalue="1" maxvalue="200000" step="1" default="100" />
+			<field name="title_1"  default="Workers"/>
+			<field name="number_2" control="spinner" minvalue="1" maxvalue="200000" step="1" default="200" />
+			<field name="title_2"  default="Trucks"/>
+			<field name="number_3" control="spinner" minvalue="1" maxvalue="200000" step="1" default="600" />
+			<field name="title_3" default="Projects"/>
+			<field name="number_4" control="spinner" minvalue="1" maxvalue="200000" step="1" default="600" />
+			<field name="title_4" default="Specialists"/>
+			<field name="number_5" control="spinner" minvalue="1" maxvalue="200000" step="1" default="1000" />
+			<field name="title_5" default="Buildings"/>
+			<field name="number_6" control="spinner" minvalue="1" maxvalue="200000" step="1" default="50" />
+			<field name="title_6" default="Countries"/>
+		</fieldset>
+	</tab>
+</form>

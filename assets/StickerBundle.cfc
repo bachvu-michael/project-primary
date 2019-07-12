@@ -19,6 +19,39 @@ component {
 		bundle.addAsset( id="css-bxslider"          , path="/css/lib/jquery.bxslider.css"                           );
 		bundle.addAsset( id="css-ie8"               , path="/css/lib/ie8.css"                                       );
 
+		//template
+		bundle.addAsset( id="jq-jquery"       		, path="/HTWF/scripts/jquery.min.js" 							);
+		bundle.addAsset( id="jq-script"       		, path="/HTWF/scripts/script.js" 					 			);
+		bundle.addAsset( id="jq-bootstrap"       	, path="/HTWF/scripts/bootstrap/js/bootstrap.min.js" 			);
+		bundle.addAsset( id="jq-imagesloaded"       , path="/HTWF/scripts/imagesloaded.min.js" 					 	);
+		bundle.addAsset( id="jq-parallax"       	, path="/HTWF/scripts/parallax.min.js" 					 		);
+		bundle.addAsset( id="jq-flexslider"       	, path="/HTWF/scripts/flexslider/jquery.flexslider-min.js" 		);
+
+		bundle.addAsset( id="jq-isotope"       			, path="/HTWF/scripts/isotope.min.js" , 						async=true			);
+		bundle.addAsset( id="jq-progressCounter"       	, path="/HTWF/scripts/jquery.progress-counter.js" , 			async=true			);
+		bundle.addAsset( id="jq-tabAccordion"       	, path="/HTWF/scripts/jquery.tab-accordion.js" , 				async=true			);
+		bundle.addAsset( id="jq-bootstrapPopover"       , path="/HTWF/scripts/bootstrap/js/bootstrap.popover.min.js" , 	async=true			);
+		bundle.addAsset( id="jq-magnificPopup"       	, path="/HTWF/scripts/jquery.magnific-popup.min.js" , 			async=true			);
+
+		bundle.addAsset( id="jq-stream"       		, path="/HTWF/scripts/social.stream.min.js" 					 	);
+		bundle.addAsset( id="jq-slimscroll"       	, path="/HTWF/scripts/jquery.slimscroll.min.js" 					);
+		bundle.addAsset( id="jq-contact"       		, path="/js/specific/contact/contact.js"							);
+		bundle.addAsset( id="jq-googleMap"       	, path="/HTWF/scripts/google.maps.min.js"							);
+
+
+		bundle.addAsset( id="css-bootstrapCustom"   , path="/HTWF/scripts/bootstrap/css/bootstrap.css"  		,  type="css" );
+		bundle.addAsset( id="css-style"      		, path="/HTWF/style.css"  									,  type="css" );
+		bundle.addAsset( id="css-contentBox"      	, path="/HTWF/css/content-box.css"  						,  type="css" );
+		bundle.addAsset( id="css-imageBox"      	, path="/HTWF/css/image-box.css"  							,  type="css" );
+		bundle.addAsset( id="css-animations"      	, path="/HTWF/css/animations.css"  							,  type="css" );
+		bundle.addAsset( id="css-components"      	, path="/HTWF/css/components.css"  							,  type="css" );
+		bundle.addAsset( id="css-flexslider"      	, path="/HTWF/scripts/flexslider/flexslider.css"  			,  type="css" );
+		bundle.addAsset( id="css-magnificPopup"     , path="/HTWF/scripts/magnific-popup.css"  					,  type="css" );
+		bundle.addAsset( id="css-stream"      		, path="/HTWF/scripts/social.stream.css"  					,  type="css" );
+		bundle.addAsset( id="css-skin"      		, path="/HTWF/skin.css"  									,  type="css" );
+		bundle.addAsset( id="css-fontAwesome"      	, path="/HTWF/scripts/font-awesome/css/font-awesome.css"  	,  type="css" );
+		bundle.addAsset( id="css-core"      		, path="/css/core/core.css"  								,  type="css" );
+
 		bundle.addAssets(
 			  directory   = "/js/"
 			, match       = function( path ){ return ReFindNoCase( "_[0-9a-f]{8}\..*?\.min.js$", arguments.path ); }
@@ -57,5 +90,7 @@ component {
 		bundle.asset( "jq-bxslider" ).dependsOn( "css-bxslider" );
 		bundle.asset( "/js/specific/bxslider/" ).dependsOn( "jq-bxslider" );
 
+		bundle.asset( "css-bootstrapCustom" ).before( "*" );
+		bundle.asset( "css-style" ).before( "css-skin" );
 	}
 }

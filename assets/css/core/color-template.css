@@ -1,0 +1,408 @@
+.extra-content,
+.nav:not(.ms-rounded) li > a:before,
+.boxed.advs-box-top-icon-img .advs-box-content,
+[class*="col-md-"].boxed,
+.advs-box-side-img hr,
+.mi-menu .sidebar-nav,
+.advs-box-top-icon-img.niche-box-post:after,
+.accordion-list .list-group-item:before,
+[class*=header-].title-base h1:before,
+.woocommerce .product span.onsale,
+.circle-button,
+.btn.circle-button,
+.btn,
+.header-bootstrap,
+.header-title hr,
+.advs-box.boxed,
+i.circle,
+.intro-box:after,
+.intro-box:before,
+.advs-box-side-img hr,
+.call-action-box,
+.title-base hr,
+.nav.inner.ms-mini,
+.bg-color,
+.header-title.white .title-base hr,
+.header-animation.white .title-base hr,
+.title-base .scroll-top,
+.title-modern .scroll-top,
+i.square,
+.header-base,
+.progress-bar,
+.tagbox span,
+.niche-box-post .block-infos .block-data,
+.header-base .title-base h1:before {
+  background-color: #E23D2F;
+}
+.navbar-inner .nav.ms-minimal li a:before {
+  background-color: #E23D2F !important;
+}
+.header-base.white {
+  background-color: #E23D2F !important;
+}
+.advs-box-multiple.boxed .advs-box-content {
+  background-color: #E23D2F !important;
+}
+.btn:not(.btn-border):hover,
+.btn-primary:focus,
+.boxed .btn,
+.btn-primary.focus,
+.side-menu .active,
+.white.circle-button:hover,
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover,
+.white .title-base.yellow-bar hr {
+  background-color: #f47269 !important;
+}
+i.icon,
+.fullpage-menu .active i,
+.navbar-default .navbar-toggle:hover i,
+.navbar-default .navbar-toggle:focus i,
+header .side-menu .active > a,
+.adv-img-button-content .caption i,
+.icon-menu ul.nav > li.active > a i,
+.icon-menu ul.nav > li:hover > a i,
+.active .maso-order i,
+.btn.btn-border i,
+.advs-box-top-icon:not(.boxed) i.icon,
+.datepicker-panel > ul > li.picked,
+.tab-box .nav-tabs > li.active > a,
+.advs-box-content h2:hover a,
+.pricing-table .pricing-price span,
+.datepicker-panel > ul > li.picked:hover,
+footer h4,
+.box-menu-inner .icon-box i,
+.caption-bottom p,
+.mi-menu li .fa,
+.fullpage-arrow.arrow-circle .arrow i,
+.accordion-list .list-group-item > a i,
+.mega-menu .fa-ul .fa-li,
+.adv-circle.adv-circle-center i,
+.mi-menu a > .fa,
+.box-steps .step-item:after,
+.box-steps .step-number,
+h6,
+li.panel-item .fa-li,
+.icon-menu .navbar-collapse ul.nav i,
+.side-menu i,
+.side-menu ul a i,
+.bs-menu li:hover > a,
+.bs-menu li.active > a,
+.hamburger-button:hover,
+.img-box.adv-circle i,
+.advs-box-side .icon,
+.advs-box-side-icon i,
+.niche-box-testimonails h5,
+.title-icon i,
+i,
+.fullpage-menu.white li.active a i,
+.timeline > li > .timeline-label h4,
+.anima-button i,
+.pricing-table .list-group-item.pricing-price,
+.footer-center .footer-title,
+.accordion-list .list-group-item > a.active,
+.btn-border,
+.btn.btn-border,
+.btn.circle-button.btn-border,
+footer a:hover,
+.block-quote.quote-1:before,
+.block-quote.quote-2:before,
+.breadcrumb > li + li:before,
+.adv-img-full-content p.sub {
+  color: #E23D2F;
+}
+.footer-minimal .footer-title,
+.advs-box-top-icon.boxed .btn,
+.advs-box-top-icon.boxed .circle-button,
+.sidebar-nav ul a:hover,
+header .mi-menu .sidebar-nav ul a:hover,
+.woocommerce div.product p.price,
+.woocommerce div.product span.price,
+.white .text-color,
+.accordion-list .list-group-item > a:hover,
+.boxed .circle-button:hover i,
+.boxed .btn:hover i,
+.pagination > .active > a,
+.pagination > li:not(.disabled):hover > a,
+.boxed .circle-button,
+header .btn-search:hover,
+.advs-box h2 a:hover,
+.nav.ms-minimal > li.active > a {
+  color: #E23D2F !important;
+}
+.btn-border:hover {
+  color: #f47269;
+}
+.btn-border:hover i {
+  color: #f47269 !important;
+}
+.btn.btn-border:hover {
+  color: #f47269;
+}
+.btn.circle-button.btn-border:hover {
+  color: #f47269;
+}
+.tag-row i {
+  color: #f47269;
+}
+.white .btn {
+  background-color: #ffffff !important;
+  border-color: #ffffff;
+}
+.white .btn i {
+  color: #f47269 !important;
+}
+.white .btn:not(.btn-border) {
+  color: #7a7a7a !important;
+}
+.white .flex-control-paging li a.flex-active {
+  background-color: #ffffff !important;
+  border-color: #ffffff;
+}
+.white form .form-control {
+  border-color: #ffffff !important;
+  color: #ffffff !important;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus,
+.pagination > li:not(.disabled):hover > a i:before,
+.advs-box-multiple div.circle,
+.advs-box-multiple div.circle i {
+  border-color: #E23D2F !important;
+  color: #E23D2F !important;
+}
+.nav.inner.ms-rounded > li > a:hover {
+  background-color: #E23D2F !important;
+  border-color: #E23D2F !important;
+}
+.nav.inner.ms-rounded > li.active a {
+  background-color: #E23D2F !important;
+  border-color: #E23D2F !important;
+}
+.circle-button,
+.btn-default,
+.white .btn:not(.btn-border),
+.btn-border,
+.bg-transparent .navbar-nav > li.active > a .caret:before,
+.bg-transparent .navbar-nav > li:hover > a .caret:before,
+.white .btn-text,
+.scroll-top-mobile:hover:before,
+.tab-box.left:not(.pills) .panel-box,
+.tab-box.right:not(.pills) .panel-box,
+.tab-box.right .nav-tabs {
+  border-color: #E23D2F;
+}
+.boxed.advs-box-multiple .advs-box-content,
+.niche-box-post,
+.extra-content,
+.quote-author,
+.border-color,
+.border-color.boxed-border.boxed-border.white,
+.img-border,
+.timeline > li > .timeline-badge,
+body div.boxed-border.border-yellow,
+.pagination li.active a {
+  border-color: #E23D2F !important;
+}
+.datepicker-top-left {
+  border-top-color: #E23D2F;
+}
+.datepicker-top-left:before {
+  border-bottom-color: #E23D2F;
+}
+.datepicker-top-right {
+  border-top-color: #E23D2F;
+}
+.datepicker-top-right:before {
+  border-bottom-color: #E23D2F;
+}
+.text-color {
+  color: #f47269;
+}
+.circle-button:hover {
+  border-color: #f47269 !important;
+}
+.btn:hover {
+  border-color: #f47269 !important;
+}
+.btn-text {
+  border-color: #f47269;
+  color: #f47269;
+}
+html .advs-box .btn-text:after {
+  border-color: #f47269;
+  color: #f47269;
+}
+.white.btn,
+.white .btn,
+.white .tag-row a,
+.header-bootstrap i.icon,
+.white .tag-row i,
+.white .advs-box-content h2 a,
+.white.advs-box-side-img h2 a,
+.advs-box-side-icon.boxed .icon-box i,
+.circle-button,
+.white .pagination > li.disabled > a,
+.white .pagination > li > a,
+.social-colors i,
+.btn.circle-button,
+.btn,
+.btn i,
+.circle-button,
+.btn.circle-button,
+.btn:hover,
+.btn:hover i,
+.btn.focus,
+.input-group button {
+  color: #ffffff;
+}
+.nav.inner.ms-rounded > li > a:hover,
+.white .btn-text:hover,
+.header-base.white .breadcrumb.b a,
+.mi-menu .sidebar-nav ul a:hover,
+.white .btn.btn-border:hover,
+.white.advs-box-top-icon h3,
+.nav.inner:not(.ms-rounded) > li.active,
+.nav.inner.ms-rounded > li.active a,
+.nav.inner.ms-rounded li:hover i,
+.ms-rounded .active .maso-order i,
+.white .btn.circle-button.btn-border,
+.boxed .btn-text,
+.advs-box.white h3 {
+  color: #ffffff !important;
+}
+.section-bg-image .advs-box.boxed-inverse,
+.white .flex-control-paging li a:hover,
+body .section-bg-color .advs-box-blog.boxed-inverse,
+.adv-img-down-text.boxed-inverse:hover,
+.advs-box-multiple div.circle,
+.section-bg-image[class*="col-md-"].boxed-inverse,
+[class*="shadow-"].boxed-inverse,
+.sidebar-nav ul ul,
+.base-box.boxed,
+.base-box.boxed-inverse,
+.advs-box.boxed-inverse {
+  background-color: #ffffff;
+}
+header .side-menu .active,
+.white.btn:not(.btn-border),
+.white .btn:not(.btn-border),
+.white:not([class*="header-"]) .title-base hr,
+.bg-white {
+  background-color: #ffffff !important;
+}
+.white.btn {
+  background-color: #ffffff !important;
+  border-color: #ffffff;
+}
+.white.btn:not(.btn-border) {
+  color: #7a7a7a !important;
+}
+.white .flex-control-paging li a,
+body .white .flex-direction-nav a:before,
+.btn .caret:before,
+body .white .flex-direction-nav a.flex-next:before,
+.white .accordion-list .list-group-item > a:before {
+  border-color: #ffffff;
+}
+.white .btn:hover,
+.white .pagination li > a i:before,
+.boxed-border.white,
+.boxed-border.boxed-border.white,
+.btn.white:hover,
+.white .btn:hover,
+.btn.white,
+.white .btn,
+.boxed .btn-text,
+.white.bg-color .btn:not(.btn-border) {
+  border-color: #ffffff !important;
+}
+.section-bg-color .advs-box-top-icon.boxed-inverse .icon {
+  background-color: #f7f7f7;
+}
+.section-bg-color .advs-box-top-icon .icon {
+  background-color: #f7f7f7;
+}
+.navbar-mini {
+  background-color: #f7f7f7;
+}
+.header-base:not(.bg-cover) {
+  background-color: #f7f7f7;
+}
+.navbar-default .navbar-nav > .active > a,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.navbar-nav > li:hover > a,
+.nav.inner > li,
+.box-transparent .overlaybox-inner,
+header .input-group-btn .btn,
+header .input-group-btn .btn:hover,
+.navbar-default .navbar-nav > li > a:hover,
+.dropdown-menu ul > li:hover > a,
+.navbar-main .btn-search:hover,
+.accordion-list .list-group-item > a:hover,
+.nav.inner,
+.bg-transparent li.active,
+.bg-transparent li:hover,
+.tab-box .nav-tabs li.active,
+.white.btn.btn-border,
+.white .btn.btn-border,
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus,
+.nav-tabs > li.active > a {
+  background: none !important;
+}
+header .input-group-btn .btn {
+  border: none !important;
+}
+.advs-box .advs-box-content p {
+  color: #7a7a7a;
+}
+.advs-box h3 {
+  color: #4C4C4C;
+  font-weight: 400;
+}
+.advs-box-side-icon p {
+  color: #7a7a7a;
+}
+.maso-order i {
+  color: #7a7a7a;
+}
+.input-group-btn .btn {
+  background-color: #9c9c9c !important;
+  border-color: #9c9c9c !important;
+}
+.input-group-btn .btn:hover {
+  background-color: #7a7a7a !important;
+  border-color: #7a7a7a !important;
+}
+.btn.btn-primary {
+  background-color: #7a7a7a !important;
+  border-color: #7a7a7a !important;
+}
+.btn.btn-primary:hover {
+  background-color: #9c9c9c !important;
+  border-color: #9c9c9c !important;
+}
+.color-4 {
+  color: #53a0d8;
+}
+.white ::-webkit-input-placeholder {
+  color: #ffffff;
+}
+.white ::-moz-placeholder {
+  color: #ffffff;
+}
+.white :-ms-input-placeholder {
+  color: #ffffff;
+}
+.white :-moz-placeholder {
+  color: #ffffff;
+}

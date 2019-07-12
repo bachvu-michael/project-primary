@@ -1,8 +1,13 @@
 <cfscript>
     body     = renderView();
     metaTags = renderView( "/general/_pageMetaForHtmlHead"    );
-    header   = renderView( "/general/_header"                 );
-    footer   = renderView( "/general/_footer"                 );
+
+    //header   = renderView( "/general/_header"                 );
+    //footer   = renderView( "/general/_footer"                 );
+
+	header   = renderView( "/general/header"               );
+    footer   = renderView( "/general/footer"               );
+    
     adminBar = renderView( "/general/_adminToolbar"           );
 
     event.include( assetId="jq-core-jquery"                   )
@@ -15,6 +20,41 @@
          .include( assetId="css-ie8"                          )
          .include( assetId="js-modernizr"                     )
          .include( assetId="js-respond"         , group="top" );
+
+    //template include
+    event
+	.include( assetId="jq-jquery" ,group="topJs" )
+	.include( assetId="jq-script" ,group="topJs" )
+
+	.include( assetId="jq-bootstrap" ,group="botJs" )
+	.include( assetId="jq-imagesloaded" ,group="botJs" )
+	.include( assetId="jq-parallax" ,group="botJs" )
+	.include( assetId="jq-flexslider" ,group="botJs" )
+	.include( assetId="jq-isotope" ,group="botJs" )
+	.include( assetId="jq-progressCounter" ,group="botJs" )
+	.include( assetId="jq-tabAccordion" ,group="botJs" )
+	.include( assetId="jq-bootstrapPopover" ,group="botJs" )
+	.include( assetId="jq-magnificPopup" ,group="botJs" )
+
+	.include( assetId="jq-stream" ,group="botJs" )
+	.include( assetId="jq-slimscroll" ,group="botJs" )
+
+
+
+
+	.include( assetId="css-bootstrapCustom" ,group="topCss" )
+	.include( assetId="css-style" ,group="topCss" )
+	.include( assetId="css-contentBox" ,group="topCss" )
+	.include( assetId="css-imageBox" ,group="topCss" )
+	.include( assetId="css-animations" ,group="topCss" )
+	.include( assetId="css-components" ,group="topCss" )
+	.include( assetId="css-flexslider" ,group="topCss" )
+	.include( assetId="css-magnificPopup" ,group="topCss" )
+	.include( assetId="css-stream" ,group="topCss" )
+	.include( assetId="css-skin" ,group="topCss" )
+	.include( assetId="css-fontAwesome" ,group="botCss" )
+    .include( assetId="css-core" ,group="botCss" );
+    
 </cfscript>
 
 <cfoutput><!DOCTYPE html>
@@ -35,21 +75,30 @@
 
         #event.renderIncludes( "css" )#
         #event.renderIncludes( "js", "top" )#
+
+        #event.renderIncludes( group="topJs" )#
+		#event.renderIncludes( group="topCss" )#
     </head>
     <body class="#( prc.body_class ?: '' )#">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
+		<div id="preloader"></div>
 
         #header#
 
-        <div class="main-wrapper">
+        <div class="main-wrapper body-wapper">
             #body#
         </div>
+
+		<i class="scroll-top scroll-top-mobile show fa fa-sort-asc"></i>
 
         #footer#
         #adminBar#
 
+        #event.renderIncludes( group="botCss" )#
+		#event.renderIncludes( group="botJs" )#
+        
         #event.renderIncludes( "js" )#
 
         #renderViewlet( event="googleanalytics.tracking" )#
