@@ -2,5 +2,8 @@
 /uploads
 /logs
 /application/config/.injectedConfiguration
+/application/extensions/*
 /preside
+!/application/extensions/README.md
+!/application/extensions/extensions.json
 .twgit*

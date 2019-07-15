@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<form i18nBaseUri="widgets.banner_slide:">
-	<tab>
-		<fieldset>
-			<field name="slides" control="objectPicker" object="widget_item_banner_slide" multiple="true" sortable="true" quickadd="true" quickedit="true" />
-        </fieldset>
-	</tab>
-</form>

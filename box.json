@@ -1,20 +1,14 @@
 {
     "name":"ielts4chance.com",
     "version":"1.0.0",
-    "author":"lethikimthu",
+    "author":"co thu",
     "slug":"ielts4chance",
+    "createPackageDirectory" : false,
     "private":true,
-    "createPackageDirectory":false,
-    "dependencies":{
-        "presidecms":"^10.7.0",
-        "preside-ext-elasticsearch":"github:pixl8/preside-ext-elasticsearch#v1.0.10",
-        "preside-ext-analytics-import":"stable",
-        "preside-ext-blog":"stable"
-    },
     "installPaths":{
-        "presidecms":"preside",
-        "preside-ext-elasticsearch":"application/extensions/preside-ext-elasticsearch",
-        "preside-ext-analytics-import":"application/extensions/preside-ext-analytics-import",
-        "preside-ext-blog":"application/extensions/preside-ext-blog"
+        "presidecms":"preside"
+    },
+    "dependencies":{
+        "presidecms":"stable"
     }
 }
