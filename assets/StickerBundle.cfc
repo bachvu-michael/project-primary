@@ -21,9 +21,11 @@ component {
         bundle.addAsset(id="jq-bootstrap-popover",path="/template/scripts/bootstrap/js/bootstrap.popover.min.js",async="true");
         bundle.addAsset(id="jq-magnific-popup",path="/template/scripts/jquery.magnific-popup.min.js",async="true");
         bundle.addAsset(id="jq-social-stream",path="/template/scripts/social.stream.min.js");
-        bundle.addAsset(id="jq-slimscroll",path="/template/scripts/jquery.slimscroll.min.js");
+		bundle.addAsset(id="jq-slimscroll",path="/template/scripts/jquery.slimscroll.min.js");
+		bundle.addAsset(id="jq-google-map",path="/template/scripts/google.maps.min.js");
+		bundle.addAsset(id="jq-google-api",url="https://maps.googleapis.com/maps/api/js?sensor=false");
+		bundle.addAsset(id="jq-twbsPagination",path="/template/scripts/jquery.twbsPagination.min.js");
 		//////////
-
 		bundle.addAssets(
 			  directory   = "/"
 			, match       = function( filepath ){ return ReFindNoCase( "\.(js|css)$", filepath ); }
@@ -36,6 +38,9 @@ component {
 
 		bundle.asset( "css-bootstrap" ).before( "*" );
 		bundle.asset( "js-bootstrap" ).dependsOn( "js-jquery" );
+		bundle.asset( "jq-google-api" ).dependsOn( "jq-jquery" );
+		bundle.asset( "jq-google-map" ).dependsOn( "jq-google-api" );
+		
 	}
 
 }
