@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form i18nBaseUri="widgets.two_columns:">
+	<tab>
+		<fieldset>
+            <field 	name="left_content"   control="richEditor"  />
+            <field 	name="right_content"   control="richEditor"  />
+			<field 	name="layout" 	control="select"
+					labels="1-left / 11-right,
+							2-left / 10-right,
+							3-left / 9-right,
+							4-left / 8-right,
+							5-left / 7-right,
+							6-left / 6-right,
+							7-left / 5-right,
+							8-left / 4-right,
+							9-left / 3-right,
+							10-left / 2-right,
+							11-left / 1-right,"
+					values="1,2,3,4,5,6,7,8,9,10,11"
+					required="true"  />
+            <field 	name="style"   control="select"	labels="Default,Left-color,Right-color"  values="default,left-color,right-color"   required="true"  />
+		</fieldset>
+	</tab>
+</form>

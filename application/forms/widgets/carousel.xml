@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form i18nBaseUri="widgets.carousel:">
+	<tab>
+		<fieldset>
+			<field name="images" control="assetPicker" allowedTypes="image"  multiple="true" quickEdit="true" quickAdd="true" sortable="true" />
+		</fieldset>
+	</tab>
+</form>

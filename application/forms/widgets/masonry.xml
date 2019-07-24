@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form i18nBaseUri="widgets.masonry:">
+	<tab>
+		<fieldset>
+			<field name="images"        control="assetPicker"   allowedTypes="image"  multiple="true" quickEdit="true" quickAdd="true" sortable="true" />
+			<field name="max_item" 	    control="spinner"       minvalue="1" maxvalue="100" step="1"  default="4" required="true"  />
+			<field name="is_container"  control="yesNoSwitch"   default="false" />
+            <field name="layout"        control="select" values="1,2,3,4,6,12" labels="1,2,3,4,6,12" required="true" default="4" />
+        </fieldset>
+	</tab>
+</form>

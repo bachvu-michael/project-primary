@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form i18nBaseUri="widgets.banner:">
+	<tab>
+		<fieldset>
+		
+			<field name="image" control="assetPicker" allowedTypes="image" multiple="false" />
+			<field name="text" control="richeditor"  />
+			<field name="backgroundColor" control="SimpleColourPicker" colours="ffffff|f7f7f7|cce5ff|e2e3e5|d4edda|f8d7da|fff3cd|d1ecf1|d6d8d9|8db9df|EAF2FF|ffd8d0|c7ecc7|ffa6ff|ffdcae|8cff8c|ffa0b4|ffe38f|d3d3d3|b2ffb2|9999cc|ff9999|ffcccc|7fbf7f"/>
+
+			<field name="buttonItem"  control="objectPicker" required="false" object="common_widget_button_HTWF" multiple="true" quickEdit="true" quickAdd="true" sortable="true"/>
+		</fieldset>
+	</tab>
+</form>

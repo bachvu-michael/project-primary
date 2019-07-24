@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form i18nBaseUri="widgets.banner_detail:">
+	<tab>
+		<fieldset>
+                  <field name="image" 	control="assetPicker" allowedTypes="image" multiple="false" />
+                  <field name="content" 	control="richeditor"  />
+		</fieldset>
+	</tab>
+</form>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form i18nBaseUri="widgets.services:">
+	<tab>
+		<fieldset>
+				<field name="page_type_layout"  control="select" values="bigImage,smallImage,news" labels="big Images,small Images,news" default="services" required="true"/>
+				<field name="order"  control="select" values="sort_order asc,title asc,datecreated desc" labels="default,title,create Date" default="default" required="true"/>
+				<field name="parent_page" control="parentPagePicker" required="true"/>
+				<field name="max_item" control="spinner" default="0" minValue="0" required="true" />
+				<field name="group"  control="yesNoSwitch"   default="false" />
+
+		</fieldset>
+	</tab>
+</form>

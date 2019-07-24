@@ -3,6 +3,7 @@
 
 <cfoutput>
 	#args.main_content#
+<!--
 	<div class="header-slider full-screen-title white">
 		<div class="flexslider slider" data-options="directionNav:false,animation:fade,slideshowSpeed:2000">
 			<ul class="slides">
@@ -27,6 +28,8 @@
 			</div>
 		</div>
 	</div>
+-->
+<!--
 	<div class="section-bg-color bg-color white">
 		<div class="container content">
 			<div class="row">
@@ -99,6 +102,8 @@
 			</div>
 		</div>
 	</div>
+-->
+<!--
 	<div class="section-bg-color section-item text-center">
 		<div class="container content">
 			<div class="title-modern title-modern-2 st-icon text-center">
@@ -144,6 +149,7 @@
 			<hr class="space s" />
 		</div>
 	</div>
+-->
 	<div class="section-empty section-item text-center">
 		<div class="container content">
 			<div class="title-modern title-modern-2 st-icon text-center">
@@ -346,4 +352,5 @@
 			</div>
 		</div>
 	</div>
+
 </cfoutput>
