@@ -150,6 +150,7 @@
 		</div>
 	</div>
 -->
+<!--
 	<div class="section-empty section-item text-center">
 		<div class="container content">
 			<div class="title-modern title-modern-2 st-icon text-center">
@@ -234,6 +235,7 @@
 			<hr class="space s" />
 		</div>
 	</div>
+-->
 	<div class="section-bg-color">
 		<div class="container content">
 			<div class="title-modern title-modern-2 st-icon text-center">

@@ -9,10 +9,11 @@
                 left: 0;
                 right: 0;
                 z-index: 1;
-                background: -webkit-gradient(linear,left bottom,left top,color-stop(6%,rgba(0,0,0,.9)),color-stop(12%,rgba(0,0,0,.75)),color-stop(30%,transparent),to(transparent));
-                background: -webkit-linear-gradient(bottom,rgba(0,0,0,.9) 6%,rgba(0,0,0,.75) 12%,transparent 30%,transparent 100%);
-                background: -o-linear-gradient(bottom,rgba(0,0,0,.9) 6%,rgba(0,0,0,.75) 12%,transparent 30%,transparent 100%);
-                background: linear-gradient(to top,rgba(0,0,0,.9) 6%,rgba(0,0,0,.75) 12%,transparent 30%,transparent 100%);
+                background: #83a4d4;  /* fallback for old browsers */
+                background: -webkit-linear-gradient(to top, #b6fbff, #83a4d4,transparent 30%,transparent 100%);  /* Chrome 10-25, Safari 5.1-6 */
+                background: linear-gradient(to top, #b6fbff, #83a4d4,transparent 30%,transparent 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+                //background: linear-gradient(to top,rgba(0,0,0,.9) 6%,rgba(0,0,0,.75) 12%,transparent 30%,transparent 100%);
             }
         }
         .content-slide-custom{

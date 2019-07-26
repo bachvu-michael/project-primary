@@ -2,7 +2,10 @@
 <form i18nBaseUri="widgets.carousel:">
 	<tab>
 		<fieldset>
-			<field name="images" control="assetPicker" allowedTypes="image"  multiple="true" quickEdit="true" quickAdd="true" sortable="true" />
+			<field name="title"  		default="title"/>
+			<field name="sub_title"  	default="sub_title"/>
+			<field name="layout"  	control="select" default="1"  values="1" label="cart" required="true"/>
+			<field name="items" 	control="objectPicker" object="cart_v1_item" multiple="true" sortable="true" quickadd="true" quickedit="true" />
 		</fieldset>
 	</tab>
 </form>

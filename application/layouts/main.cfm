@@ -40,7 +40,7 @@
 		<!--[if lt IE 9]>
 			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-        <link rel="icon" href="/assets/template/images/favicon.png">
+        <link rel="icon" href="/assets/img/ielts-logo-png-7.png">
 	</head>
 	<body class="#classAdmin#">
 		<div id="preloader"></div>
@@ -53,8 +53,8 @@
                                 <i class="fa fa-bars"></i>
                             </button>
                             <a class="navbar-brand" href="/">
-                                <img class="logo-default" src="/assets/template/images/logo.png" alt="logo" />
-                                <img class="logo-retina" src="/assets/template/images/logo-retina.png" alt="logo" />
+                                <img class="logo-default" src="/assets/img/ielts-logo-png-7.png" alt="logo" />
+                                <img class="logo-retina" src="/assets/img/ielts-logo-png-7.png" alt="logo" />
                             </a>
                         </div>
                         <div class="collapse navbar-collapse">

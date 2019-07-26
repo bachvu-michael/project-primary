@@ -1,20 +1,37 @@
 
 
-<cfparam name="args.images"      default="" />
+<cfparam name="args.title"      default="" />
+<cfparam name="args.sub_title"      default="" />
+<cfparam name="args.layout"      default="" />
+<cfparam name="args.items"      default="" />
+
 <cfscript>
-    event	.include( assetId="jq-magnific"               ,group="botJs" )
-            .include( assetId="css-magnific"                            );
+   
 </cfscript>
 <cfoutput>
-    <div class="flexslider slider white nav-inner white"  data-options="controlNav:true,directionNav:true">>
-        <ul class="slides">
-            <cfloop  list="#args.images#" item="img">
-                <li>
-                    <a class="img-box img-scale-up lightbox" href="#event.buildLink(assetId=img,derivative="about_2" )#" data-lightbox-anima="show-scale" style="height: unset;">
-                        #renderAsset(assetId=img,args={  derivative="about_2" })#
-                    </a>
-                </li>
-            </cfloop>
-        </ul>
-    </div>
+    <div class="section-empty section-item text-center">
+		<div class="container content">
+			<div class="title-modern title-modern-2 st-icon text-center">
+				<h2 style="border-bottom: 2px solid ##14ce0d;font-weight: 600;">#args.title#</h2>
+				<hr >
+				<p>#args.sub_title#</p>
+			</div>
+			<hr class="space m" />
+			<div class="row">
+				<div class="col-md-12">
+					<div class="flexslider carousel outer-navs" data-options="itemMargin:15,minWidth:190">
+						<ul class="slides">
+                            #renderView(
+                                view          =  "/widgets/carousel/_item_cart"
+                              , presideObject = "cart_v1_item"
+                              , filter        = { id=listToArray( args.items ) }
+                              , orderBy       = "FIELD( id, #listqualify( args.items, "'" )# )"
+                            )#
+						</ul>
+					</div>
+				</div>
+			</div>
+			<hr class="space s" />
+		</div>
+	</div>
 </cfoutput>
